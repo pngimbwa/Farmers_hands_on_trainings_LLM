@@ -1,0 +1,1 @@
+This hands-on practice provides you with practical skills on how Retrieval Augumented Generation (RAG) and AI Agents are created and how you can use them. Please refer to the specified folders for more details.
