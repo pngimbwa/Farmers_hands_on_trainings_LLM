@@ -439,7 +439,7 @@ def view_rules(crop):
     return f"Error: {crop} not recognized. Supported crops: {supported_crops}"
 
 
-with gr.Blocks(title="Peanut Agentic AI System") as demo:
+with gr.Blocks(title="Peanut Agentic AI System") as AgenticAISystem:
     gr.Markdown("# Peanut Agentic AI System")
     gr.Markdown(
         "This Agentic AI system provide a recommendation for irrigation based on current weather and soil conditions. "
@@ -491,4 +491,4 @@ with gr.Blocks(title="Peanut Agentic AI System") as demo:
         rules_button.click(fn=view_rules, inputs=rules_crop, outputs=rules_output)
 
 if __name__ == "__main__":
-    demo.launch()
+    AgenticAISystem.launch()
